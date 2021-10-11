@@ -1,0 +1,23 @@
+.top-navigation-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    .logo-img{
+        // flex-basis: 20%
+    }
+    .navigation{
+   
+        ul{
+            // display: flex;
+            // flex-wrap: wrap;
+        }
+        li{
+            // flex-basis: 30%;
+            list-style: none;
+        }
+        a{
+            flex-basis: 30%;
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+}

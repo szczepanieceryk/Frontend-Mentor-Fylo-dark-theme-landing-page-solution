@@ -1,0 +1,29 @@
+.footer-wrapper{
+.bottom-nav{
+    nav{
+        ul{
+            li{
+                list-style: none;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+.social-media-links{
+    margin: 40px auto 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    img{
+        margin: 0 5px;
+        height: 20px;
+        // border: 1px solid #fff;
+        // border-radius: 50%;
+    }
+}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}

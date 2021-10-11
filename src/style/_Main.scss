@@ -1,0 +1,26 @@
+.main-wrapper{
+    margin: 50px auto;
+    .our-offer{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        .single-offer{
+            margin: 40px auto;
+            flex-basis: 100%;
+            text-align: center;
+            .title{
+                margin: 10px auto;
+                display: block;
+            }
+        } 
+    }
+    .stay-productive{
+        margin: 40px auto;
+        .productive-img{
+            width: 100%;
+        }
+        a{
+            color: hsl(176, 68%, 64%);
+        }
+    }
+}

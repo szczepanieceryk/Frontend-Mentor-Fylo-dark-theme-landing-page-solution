@@ -1,9 +1,10 @@
+import HomePage from '../pages/HomePage';
 import '../style/style.scss';
 
 const App = () => {
   return (
     <div className="App">
-      działa
+      <HomePage />
     </div>
   );
 }
