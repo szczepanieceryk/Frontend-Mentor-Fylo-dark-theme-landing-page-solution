@@ -37,38 +37,38 @@ const Footer = () => {
                 <nav>
                     <ul>
                         <li>
-                            <a href="">
+                            <a href="/">
                                 About Us
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/">
                                 Jobs
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/">
                                 Press
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/">
                                 Blog
                             </a>
                         </li>
                         <br />
                         <li>
-                            <a href="">
+                            <a href="/">
                                 Contact Us
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/">
                                 Terms
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="/">
                                 Privacy
                             </a>
                         </li>
@@ -81,8 +81,8 @@ const Footer = () => {
                 <img src={instagramIcon} alt="instagram logo" className="social-icons" />
             </div>
             <p class="attribution">
-                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-                Coded by <a href="#">Your Name Here</a>.
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer">Frontend Mentor</a>.
+                Coded by <a href="https://github.com/szczepanieceryk">Eryk Szczepaniec</a>.
             </p>
         </div>
     );

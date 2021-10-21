@@ -18,6 +18,7 @@ import profile3Img from '../images/profile-3.jpg'
 
 import '../style/_Main.scss';
 
+//data for our offer section to map thru
 const offerData = [
     {
         id: 1,
@@ -43,7 +44,6 @@ const offerData = [
         title: 'Store any type of file',
         text: "Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared."
     }
-
 ]
 
 const usersTestimonials = [
@@ -76,15 +76,17 @@ const Main = () => {
 
     const { handleSubmit, register, formState: { errors } } = useForm();
 
-    const onSubmit = (data) => console.log(data)
+    const onSubmit = (data) => console.log(data);
+
+    // calling map function on array to create content with OurOffer component 
+    const ourOffer = offerData.map(offer => (
+        <OurOffer key={offerData.id} {...offer} />
+    ))
 
     const testimonials = usersTestimonials.map(testimonial => (
         <Testimonial key={usersTestimonials.id} {...testimonial} />
     ))
 
-    const ourOffer = offerData.map(offer => (
-        <OurOffer key={offerData.id} {...offer} />
-    ))
     return (
         <div className="main-wrapper">
             <div className="our-offer">
@@ -105,7 +107,7 @@ const Main = () => {
                         Securely share files and folders with friends, family and colleagues for live collaboration. No email
                         attachments required.
                     </p>
-                    <a href="#">
+                    <a href="/">
                         See how Fylo works
                     </a>
                     <img className="arrow-icon" src={arrowIcon} alt="" />

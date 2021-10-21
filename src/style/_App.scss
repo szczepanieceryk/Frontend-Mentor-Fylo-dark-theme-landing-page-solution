@@ -22,6 +22,8 @@ body{
     }
 }
 
+
+// responsiveness styles for whole project
 @media screen and(min-width:481px){
     .App{
         .header-wrapper,.main-wrapper{
@@ -140,9 +142,6 @@ body{
              .bottom-nav{
                  max-width: 90px;
              }
-            //  .location,.contact,.bottom-nav,.social-media-links{
-            //     flex-basis: 20%;
-            // }
         }
     }
 }
