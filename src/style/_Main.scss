@@ -1,6 +1,8 @@
 .main-wrapper{
-    margin: 50px auto;
+    margin-bottom: 80px;
+    background-color:hsl(217, 27%, 13%) ;
     .our-offer{
+        margin: 20px auto;
         display: flex;
         flex-wrap: wrap;
         text-align: center;
@@ -15,12 +17,80 @@
         } 
     }
     .stay-productive{
+        display: flex;
+        flex-wrap: wrap;
         margin: 40px auto;
         .productive-img{
             width: 100%;
         }
-        a{
-            color: hsl(176, 68%, 64%);
+        .productive-content{
+            a{
+                display: inline-block;
+                margin: 10px 0;
+                color: hsl(176, 68%, 64%);
+            }
+            .arrow-icon{
+                margin-left: 5px;
+                vertical-align: middle;
+            }
+        }
+       
+    }
+    .testimonials-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 150px auto 0;
+        .quotes-icon{
+            // flex-basis: 100%;
+            display: block;
+        }
+        .sinlge-testimonial{
+            flex-basis: 100%;
+            max-width: 350px;
+            margin: 0 auto 20px;
+            padding: 25px;
+            background-color: hsl(219, 30%, 18%);
+            .user-image{
+                margin: 10px 5px 10px 0;
+                height: 30px;
+                border-radius: 50%;
+                }
+            }
+    }
+    .sign-up{
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        transform: translateY(230px);
+        background-color: hsl(217, 28%, 15%);
+        .text{
+            display: block;
+        }
+        .email-input{
+            margin: 20px auto 0;
+            padding: 15px 60px 15px 25px;
+            border-radius: 20px;
+            border: none;
+            max-width: 250px;
+
+        }
+        .error-mess{
+            color: hsl(0, 100%, 63%);
+        }
+        .submit{
+            max-width: 250px;
+            margin: 20px auto;
+            padding: 15px 60px;
+            display: block;
+            border: none;
+            border-radius: 20px;
+            color: #fff;
+            background: linear-gradient(270deg, hsl(198, 60%, 50%),hsl(176, 68%, 64%));
+            transition: .3s;
+            &:hover{
+                cursor: pointer;
+                background: linear-gradient( hsl(176, 68%, 64%),hsl(176, 68%, 64%));
+            }
         }
     }
 }

@@ -3,8 +3,29 @@
     .header-img{
         width: 100%;
     }
-    // .title{
-    //     font-family: 'Raleway',Arial, Helvetica, sans-serif;
-    //     font-weight: bold;
-    // }
+    .banner{
+        margin: 20px auto;
+        padding: 0 20px;
+        display: block;
+        font-family: 'Raleway',Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 20px;
+    }
+    .text{
+        display: block;
+    }
+    .get-started-btn{
+        margin: 20px auto;
+        padding: 10px 80px;
+        display: block;
+        border: none;
+        border-radius: 20px;
+        color: #fff;
+        background: linear-gradient(270deg,hsl(198, 60%, 50%),hsl(176, 68%, 64%));
+        &:hover{
+            cursor: pointer;
+            background: linear-gradient( hsl(176, 68%, 64%),hsl(176, 68%, 64%));
+        }
+    }
 }

@@ -1,17 +1,17 @@
 import React from 'react'
 
-const Testimonial = ({ text, imgUrl, name, occupation }) => {
+const Testimonial = ({ text, img, name, occupation }) => {
     return (
-        <>
+        <div className="sinlge-testimonial">
             <p className="text">
                 {text}
             </p>
-            <img src={imgUrl} alt="" />
+            <img src={img} alt="user thumbnail" className="user-image" />
             <span>
-                {name}
+                <strong>{name}</strong>
                 {occupation}
             </span>
-        </>
+        </div>
     );
 }
 

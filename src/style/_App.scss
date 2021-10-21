@@ -8,3 +8,228 @@ body{
     font-size: 14px;
     color: #fff;
 }
+.App{
+    .top-navigation-wrapper,.header-wrapper,.main-wrapper{
+        padding: 20px 30px;
+    }
+    .title{
+        margin: 20px auto;
+        display: block;
+        font-family: 'Raleway',Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 18px;
+    }
+}
+
+@media screen and(min-width:481px){
+    .App{
+        .header-wrapper,.main-wrapper{
+            margin: 0 auto;
+            max-width: 500px;
+        }
+        .main-wrapper{
+            margin-bottom: 80px;
+        }
+    }
+}
+
+@media screen and(min-width:769px){
+    .App{
+        .header-wrapper,.main-wrapper{
+            max-width: 650px;
+        }
+        .header-wrapper{
+            .banner{
+                padding: 0 40px;
+            }
+            .text{
+                padding: 0 80px;
+            }
+        }
+       .main-wrapper{
+        .our-offer{
+            margin: 50px auto 70px;
+            justify-content: space-between;
+            .single-offer{
+                max-width: 250px;
+                flex-basis: 50%;
+            }
+        }
+        .stay-productive{
+            justify-content: space-between;
+            .productive-img,.productive-content{
+                flex-basis: 50%;
+                max-width: 300px;
+            }
+        }
+        .testimonials-wrapper{
+            .sinlge-testimonial{
+                flex-basis: 40%;
+            }
+        }
+        .sign-up{
+            .text{
+                padding: 0 30px;           
+            }
+            .email-input{
+                margin: 20px 30px 0 0;
+            }
+            .submit{
+                display: inline-block;
+            }
+        }
+       }
+       .footer-wrapper{
+           justify-content: space-between;
+        .contact{
+            margin: 20px 0;
+        }
+       }
+    }
+}
+@media screen and(min-width:1025px){
+    .App{
+    
+        .main-wrapper{
+            max-width: 800px;
+
+            .our-offer{
+                .single-offer{
+                    max-width: 300px;
+                    flex-basis: 50%;
+                }
+            }
+            .stay-productive{
+                justify-content: space-between;
+                .productive-img,.productive-content{
+                    max-width: 350px;
+                }
+            }
+            .testimonials-wrapper{
+                justify-content: space-between;
+                .sinlge-testimonial{
+                    flex-basis: 35%;
+                    max-width: 250px;
+                }
+            }
+            .sign-up{
+                transform: translateY(200px);
+                .email-input{
+                    margin: 20px 20px 20px 0;
+                    max-width: 400px;
+                }
+            }
+        }
+        .footer-wrapper{
+             padding: 200px 40px 20px;
+             justify-content: space-evenly;
+             .logo{
+                margin: 0 750px 30px 40px;
+             }
+             .contact{
+                 margin: 0;
+             }
+             .social-media-links{
+                 margin: 0;
+             }
+             .location, .contact, .bottom-nav, .social-media-links{
+                 flex-basis:25%;
+                 max-width: 200px;
+             }
+             .bottom-nav{
+                 max-width: 90px;
+             }
+            //  .location,.contact,.bottom-nav,.social-media-links{
+            //     flex-basis: 20%;
+            // }
+        }
+    }
+}
+@media screen and(min-width:1201px){
+.App{
+    .top-navigation-wrapper,.header-wrapper,.main-wrapper{
+        padding: 30px;
+    }
+    .main-wrapper{
+        max-width: 1000px;
+    }
+    .main-wrapper{
+        .our-offer,.sign-up{
+            max-width: 800px;
+        }
+        .stay-productive{
+           justify-content: space-around;
+            .productive-img,.productive-content{
+                max-width: 400px;
+            }
+            .productive-content{
+                line-height: 2;
+            }
+        }
+        .testimonials-wrapper{
+            justify-content: space-between;
+            .sinlge-testimonial{
+                max-width: 300px;
+            }
+        }
+        .sign-up{
+            transform: translateY(220px);
+        }
+    }
+    .footer-wrapper{
+        .logo{
+           margin: 0 1000px 30px 100px;
+        }
+    }
+}
+}
+@media screen and(min-width:1400px){
+    .App{
+        .header-wrapper{
+            .header-img{
+                max-width: 650px;
+            }
+        }
+        .main-wrapper{
+            max-width: 1200px;
+            .our-offer,.sign-up{
+                max-width: 1000px;
+            }
+            .our-offer {
+                .single-offer{
+                    max-width: 350px;
+                }
+            }
+            .testimonials-wrapper{
+                .sinlge-testimonial{
+                    max-width: 320px;
+                }
+            }
+            .sign-up{
+                .email-input{
+                   width: 500px;
+                }
+                .text{
+                    padding: 0 100px;           
+                }
+            }
+            
+        }
+        .footer-wrapper{
+            .logo{
+               margin: 0 1200px 30px 250px;
+            }
+        }
+}
+}
+@media screen and(min-width:1600px){
+    .App{
+        .footer-wrapper{
+            .logo{
+               margin: 0 1500px 30px 150px;
+            }
+        }
+    }
+   
+}

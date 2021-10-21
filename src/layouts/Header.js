@@ -8,13 +8,13 @@ const Header = () => {
     return (
         <div className="header-wrapper">
             <img className="header-img" src={headerImg} alt="" />
-            <span className="title">
+            <span className="banner">
                 All your files in one secure location, accessible anywhere.
             </span>
-            <p className="text">
+            <span className="text">
                 Fylo stores all your most important files in one secure location. Access them wherever
                 you need, share and collaborate with friends family, and co-workers.
-            </p>
+            </span>
             <button className="get-started-btn">
                 Get Started
             </button>
