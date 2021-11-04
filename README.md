@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://szczepanieceryk.github.io/Frontend-Mentor-Fylo-dark-theme-landing-page-solution/)
+- Live Site URL:[click here!](https://szczepanieceryk.github.io/Frontend-Mentor-Fylo-dark-theme-landing-page-solution/)
 
 ## My process
 
